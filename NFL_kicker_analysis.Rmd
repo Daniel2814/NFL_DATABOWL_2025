@@ -1,0 +1,12 @@
+---
+title: "My Analysis"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r}
+nfl_kick_attempts <- read.csv("nfl_kick_attempts(in).csv")
+head(nfl_kick_attempts)
+```
+
